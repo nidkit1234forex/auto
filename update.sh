@@ -8,7 +8,7 @@ cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/
 
 # Clone repository 
 
-git clone https://github.com/ubol1234forex/jk8180.git
+git clone https://github.com/nidkit1234forex/jk8180.git
 cd jk8180
 mkdir set-miner-off
 chmod +x start.sh move.sh
