@@ -11,7 +11,7 @@ cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/
 git clone https://github.com/nidkit1234forex/jk8180.git
 cd jk8180
 mkdir set-miner-off
-chmod +x start.sh move.sh
+chmod +x start.sh move.sh move-turbo.sh
 
 
 #ccminer
