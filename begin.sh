@@ -10,6 +10,7 @@ cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/
 git clone https://github.com/nidkit1234forex/jk8180-update.git
 cd jk8180-update
 mkdir set-miner-off
+mkdir set-miner-on
 chmod +x moveback.sh start-turbo.sh moveback-turbo.sh
 
 mkdir ccminer && cd ccminer
