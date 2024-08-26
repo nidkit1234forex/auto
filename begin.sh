@@ -11,6 +11,10 @@ git clone https://github.com/nidkit1234forex/jk8180-update.git
 cd jk8180-update
 mkdir set-miner-off
 chmod +x moveback.sh start-turbo.sh moveback-turbo.sh
+
+mkdir ccminer && cd ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
+chmod +x ccminer 
 cd ~
 git clone https://github.com/nidkit1234forex/jk8180.git
 cd jk8180
