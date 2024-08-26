@@ -16,7 +16,7 @@ git clone https://github.com/nidkit1234forex/jk8180.git
 cd jk8180
 
 git clone https://github.com/nidkit1234forex/set-miner-off.git
-chmod +x start.sh
+chmod +x start.sh move.sh move-turbo.sh
 
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
