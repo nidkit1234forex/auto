@@ -11,7 +11,7 @@ git clone https://github.com/nidkit1234forex/jk8180.git
 cd jk8180
 
 git clone https://github.com/nidkit1234forex/set-miner-off.git
-chmod +x start.sh
+chmod +x start.sh start-fast.sh start-update.sh
 
 git clone https://github.com/nidkit1234forex/ccminer.git
 cd ccminer 
