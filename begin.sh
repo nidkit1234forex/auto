@@ -13,8 +13,8 @@ cd jk8180
 git clone https://github.com/nidkit1234forex/set-miner-off.git
 chmod +x start.sh start-fast.sh start-update.sh
 
-git clone https://github.com/nidkit1234forex/ccminer.git
-cd ccminer 
+mkdir ccminer && cd ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
 chmod +x ccminer 
 
 echo 'cd jk8180 && ./start.sh' >> ~/.bashrc
