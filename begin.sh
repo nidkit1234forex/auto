@@ -6,6 +6,8 @@ yes | pkg install libjansson wget nano
 
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 
+mv ~/jk8180/set-miner-off ~/
+
 # Clone repository 
 git clone https://github.com/nidkit1234forex/jk8180.git
 cd jk8180
