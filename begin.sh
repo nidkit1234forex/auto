@@ -18,6 +18,6 @@ wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
 chmod +x ccminer 
 
 echo 'cd jk8180 && ./start.sh' >> ~/.bashrc
-
+echo 'cd jk8180 && ./start.sh' >> ~/jk8180/set-miner-off/
 
 
