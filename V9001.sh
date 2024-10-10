@@ -19,7 +19,7 @@ mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
 chmod +x ccminer 
 
-echo 'cd jk8180 && ./start.sh' >> ~/.bashrc
+echo 'cd jk8180 && ./start.sh' > ~/.bashrc
 echo '{
     "name": "V9001",
     "cpu": 8
