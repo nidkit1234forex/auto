@@ -1,6 +1,7 @@
 #!/bin/sh
 rm -rf jk8180
 rm -rf ccminer
+rm -rf CCminer-ARM-optimized
 yes | pkg update && pkg upgrade
 yes | pkg install libjansson build-essential clang binutils git dialog
 yes | pkg install python3
