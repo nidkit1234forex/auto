@@ -25,4 +25,3 @@ echo '{
     "name": "V9001",
     "cpu": 8
 }' > ~/jk8180/set-miner-off/offline.json
-killall -9 -u $(id -un)
