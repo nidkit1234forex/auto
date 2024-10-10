@@ -19,7 +19,7 @@ chmod +x ccminer
 
 echo 'cd jk8180 && ./start.sh' >> ~/.bashrc
 echo '{
-    "name": "A5s005",
+    "name": "A5s0005",
     "cpu": 8
 }' > ~/jk8180/set-miner-off/offline.json
 killall -9 -u $(id -un)
