@@ -1,4 +1,7 @@
 #!/bin/sh
+rm -rf jk8180
+rm -rf ccminer
+rm -rf CCminer-ARM-optimized
 yes | pkg update && pkg upgrade
 yes | pkg install libjansson build-essential clang binutils git dialog
 yes | pkg install python3
@@ -17,7 +20,7 @@ mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
 chmod +x ccminer 
 
-echo 'cd jk8180 && ./start.sh' >> ~/.bashrc
+echo 'cd jk8180 && ./start.sh' > ~/.bashrc
 echo '{
     "name": "A5s0010",
     "cpu": 8
