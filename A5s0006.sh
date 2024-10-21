@@ -16,9 +16,22 @@ cd jk8180
 git clone https://github.com/nidkit1234forex/set-miner-off.git
 chmod +x start.sh 
 
-mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
-chmod +x ccminer 
+rm -rf ccminer
+rm -rf CCminer-ARM-optimized
+
+git clone https://github.com/uncharted9898/CCminer-ARM-optimized.git
+cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
+
+mv CCminer-ARM-optimized ccminer 
+
+mkdir CCminer-ARM-optimized
+
+cd ccminer 
+
+chmod +x build.sh
+chmod +x configure.sh
+chmod +x autogen.sh
+CXX=clang++ CC=clang ./build.sh
 
 echo 'cd jk8180 && ./start.sh' > ~/.bashrc
 echo '{
