@@ -10,13 +10,13 @@ yes | pkg install libjansson wget nano
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 
 # Clone repository 
-wget https://github.com/nidkit1234forex/update/blob/main/net.sh
 
 git clone https://github.com/nidkit1234forex/jk8180.git
 cd jk8180
 
 git clone https://github.com/nidkit1234forex/set-miner-off.git
-chmod +x start.sh 
+chmod +x start.sh
+chmod +x net.sh 
 
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
