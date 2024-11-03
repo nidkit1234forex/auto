@@ -17,7 +17,7 @@ cd jk8180-A5s
 git clone https://github.com/nidkit1234forex/set-mode.git
 
 git clone https://github.com/nidkit1234forex/set-miner-off.git
-chmod +x start.sh net.sh net1.sh net2.sh net3.sh
+chmod +x start.sh net.sh net1.sh net2.sh net3.sh openss.sh
 
 
 mkdir ccminer && cd ccminer
