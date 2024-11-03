@@ -1,5 +1,6 @@
 #!/bin/sh
 rm -rf jk8180
+rm -rf jk8180-A5s
 rm -rf ccminer
 rm -rf CCminer-ARM-optimized
 yes | pkg update && pkg upgrade
